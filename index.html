@@ -1,0 +1,234 @@
+<!--En este proyecto aprendi la estructura basica de una pagina web.-->
+<!--Como regla general se usan section antes de cada heading (h1,h2,h3,etc)-->
+<!--Main se usa para resaltar el contenido principal. En este caso, mis servicios.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--Normalize-->
+    <link rel="stylesheet" href="/styles/normalize.css" />
+
+    <title>Diseñandor Freelance</title>
+
+    <!--esto le da performance al sitio web, es  de lo nuevo en css-->
+    <link rel="preload" href="/styles/css.css" as="style" />
+    <link rel="stylesheet" href="/styles/css.css" />
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <h1 class="titulo">Yorch_xDev <span>Freelancer</span></h1>
+    </header>
+
+    <!--Nav-->
+    <div class="nav-background">
+      <nav class="navegacion-principal contenedor">
+        <a href="#">Inicio</a>
+        <a href="#">Sobre Mi</a>
+        <a href="#">Clientes</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
+
+    <!--Portada-->
+    <section class="portada">
+      <div class="portada-contenido">
+        <h2 class="titulo">Diseño y Desarrollo Web</h2>
+
+        <p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-map-search"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#ff2825"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v10" />
+            <path d="M9 4v13" />
+            <path d="M15 7v5" />
+            <circle cx="16.5" cy="17.5" r="2.5" />
+            <path d="M18.5 19.5l2.5 2.5" />
+          </svg>
+
+          Bogota, Colombia
+        </p>
+        <a class="boton" href="#">Contactar</a>
+      </div>
+    </section>
+
+    <!--Servicios-->
+    <main class="contenedor sombra">
+      <h2>Mis Servicios</h2>
+
+      <div class="servicios">
+        <section class="servicio" data-aos="zoom-out-down">
+          <h3>Diseño Web</h3>
+
+          <div class="iconos">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brush"
+              width="100"
+              height="100"
+              viewBox="0 0 24 24"
+              stroke-width="2.5"
+              stroke="#ffbf00"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
+              <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
+              <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
+              <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
+            </svg>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            nulla corporis natus assumenda voluptates dicta molestias, delectus
+            libero veritatis rem facere voluptate distinctio sequi quidem esse,
+            ullam deleniti nostrum voluptas!
+          </p>
+        </section>
+
+        <section class="servicio" data-aos="zoom-out-down">
+          <h3>Aplicaciones Web</h3>
+
+          <div class="iconos">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-browser"
+              width="100"
+              height="100"
+              viewBox="0 0 24 24"
+              stroke-width="2.5"
+              stroke="#ffbf00"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <rect x="4" y="4" width="16" height="16" rx="1" />
+              <line x1="4" y1="8" x2="20" y2="8" />
+              <line x1="8" y1="4" x2="8" y2="8" />
+            </svg>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            nulla corporis natus assumenda voluptates dicta molestias, delectus
+            libero veritatis rem facere voluptate distinctio sequi quidem esse,
+            ullam deleniti nostrum voluptas!
+          </p>
+        </section>
+
+        <section class="servicio" data-aos="zoom-out-down">
+          <h3>E-Commerce</h3>
+          <div class="iconos">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-credit-card"
+              width="100"
+              height="100"
+              viewBox="0 0 24 24"
+              stroke-width="2.5"
+              stroke="#ffbf00"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <rect x="3" y="5" width="18" height="14" rx="3" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+              <line x1="7" y1="15" x2="7.01" y2="15" />
+              <line x1="11" y1="15" x2="13" y2="15" />
+            </svg>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            nulla corporis natus assumenda voluptates dicta molestias, delectus
+            libero veritatis rem facere voluptate distinctio sequi quidem esse,
+            ullam deleniti nostrum voluptas!
+          </p>
+        </section>
+      </div>
+
+      <!--Contacto-->
+      <section class="contenedor">
+        <h2>Contacto</h2>
+
+        <form action="#" class="formulario">
+          <fieldset>
+            <legend>Contactame llenando todos los campos.</legend>
+
+            <div class="campos-contenido">
+              <div class="campo">
+                <label>Nombre</label>
+                <input class="imput" type="text" placeholder="Nombre" />
+              </div>
+              <div class="campo">
+                <label>Telefono</label>
+                <input
+                  class="imput"
+                  type="tel"
+                  placeholder="Numero Telefonico"
+                />
+              </div>
+              <div class="campo">
+                <label>Email</label>
+                <input
+                  class="imput"
+                  type="email"
+                  placeholder="Correo Electronico"
+                />
+              </div>
+              <div class="campo">
+                <label>Mensaje</label>
+                <textarea class="imput"></textarea>
+              </div>
+            </div>
+
+            <div class="enviar">
+              <input class="boton2" type="submit" value="Enviar" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+      <p>Todos los derechos reservados. Yorch_xDev.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
